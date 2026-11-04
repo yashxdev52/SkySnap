@@ -21,7 +21,9 @@ JavaScript
 
 Want to check the weather?
 
-🌤️ Click Here to Explore SkySnap
+[Click Here to Visit SkySnap](https://yashxdev52.github.io/SkySnap/)
+
+
 
 👨‍💻 Author
 
