@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg,#9e7ddc,#bc97d9);
+    min-height: 100vh;
+    font-family: 'Segoe UI',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainbox1 , .mainbox2 , .mainbox3 {
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+    background: linear-gradient(180deg,#1a2344,#8a4dad);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+/* Main Box 1 */
+#img1 {
+    height: 200px;
+    width: 200px;
+}
+
+.weather {
+    font-size: 50px;
+    font-weight: 500;
+}
+.forecasts{
+    font-size: 50px;
+    font-weight: 300;
+    color: #ddb130;
+}
+.start , .homebtn{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #ddb130;
+    color: black;
+    outline: none;
+}
+.start:hover , .homebtn:hover {
+    background: #f4c842;
+    transform: scale(1.02);
+    transform-origin: all 0.1s ease-in-out;
+}
+
+/* Main Box 2 */
+.searchbox {
+    height: 40px;
+    width: 280px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbox input{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+.searchbox img{
+    height: 39px;
+    width: 39px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.iconbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconbox img {
+    width: 180px;
+    height: 180px;
+}
+.tempbox {
+    height: 100px;
+    width: 280px;
+    text-align: center;
+}
+#temp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+}
+#city {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ddb130;
+}
+
+.extradetails{
+    height: 100px;
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wind , .humidity {
+    display: flex;
+    align-items: center;
+}
+#windicon , #humidityicon {
+    width:60px;
+    height: 60px;
+    margin-right: 5px;
+    background: transparent;
+}
+#hp,#wp {
+    font-weight: bold;
+}
+
+#info {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.inactive{
+    display: none;
+}

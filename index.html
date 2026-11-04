@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="mainbox1">
+            <img src="weathericon.png" alt="weather pic" id="img1">
+            <h1 class="weather">Weather</h1>
+            <h2 class="forecasts">ForeCasts</h2>
+            <button class="start">Get Start</button>
+        </div>
+        <div class="mainbox2 inactive">
+            <div class="searchbox">
+                <input type="text" placeholder="Enter Your City" class="inputfield">
+                <img src="searchicon.png" class="searchicon"></img>
+            </div>
+            <div class="iconbox">
+                <img src="weathericon.png" id="icon">
+                <p id="desc">Description</p>
+            </div>
+            <div class="tempbox">
+                <h1 id="temp">0 &#8451</h1>
+                <h3 id="city">New York</h3>
+            </div>
+            <div class="extradetails">
+                <div class="wind">
+                    <img src="windspeed.png" id="windicon">
+                    <div class="winddata">
+                        <p id="windspeed">0km/hr</p>
+                        <p id="wp">Wind</p>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <img src="humidity.png" id="humidityicon">
+                    <div class="humiditydata">
+                        <p id="humiditytype">0%</p>
+                        <p id="hp">Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mainbox3 inactive">
+            <h1>404</h1>
+            <p>Oops! Page not Found</p>
+            <p id="info">The page you're looking for doesn't exist or has been moved.</p>
+            <button class="homebtn">Go Home</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
